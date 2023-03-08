@@ -1,0 +1,202 @@
+.body__categorias{
+    background-color: #000000;
+    .main__categorias-titulo{
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        padding: 6%;
+        color: white;
+        h3{
+            transform: rotateY(10deg);
+        }
+    }
+    .main__categorias-botones {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        .main__categorias-botones1 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            input{
+                width: 250px;
+                height: 100px;
+                border: none;
+                outline: none;
+                font-size: 18px;
+                border-radius: 8px;
+                color:$primary-color ;
+                background-color: $secondary-color;
+                font-weight: 200;
+                margin: 2%;
+                &:hover{
+                    color:$secondary-color;
+                    background-color:$primary-color;
+                    border-color: $secondary-color;
+                }
+            }
+        }
+        .main__categorias-botones2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            input {
+                width: 250px;
+                height: 100px;
+                margin-top: 1%;
+                border: none;
+                outline: none;
+                font-size: 18px;
+                border-radius: 8px;
+                color:$primary-color;
+                background-color: $secondary-color;
+                font-weight: 200;
+                margin: 2%;
+                &:hover{
+                    color:$secondary-colorS;
+                    background-color:$primary-color;
+                    border-color: $secondary-color;
+                    
+                }
+            }
+        }
+        @media (max-width: 460px){
+            .main__categorias-botones1 {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 0;
+            }
+            .main__categorias-botones1 input {
+                width: 100%;
+            }
+            .main__categorias-botones2 {
+                display: flex;
+                flex-direction: column;
+            }
+            .main__categorias-botones2 input {
+                width: 100%;
+            }
+        }
+    }
+    .main__categorias-pagos{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 3%;
+        color: white;
+    }
+    .main__categorias-tarjetas{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-left: 3%;
+        color: white;
+    }
+    .main__categorias-tarjetas-libros{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        color: white;
+        margin-top: 2%;
+        padding: 2%;
+        background-color: $secondary-color;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    
+    }
+    .categorias__tarjetatexto{
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: medium ;
+    }
+    .main__categorias-subtitulo{
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        color: white;
+        .categorias__tarjeta-imagen6{
+            width: 165px;
+            height: 200px;
+            border-radius: 8px;
+            .categorias__tarjetatexto{
+                margin-top: 2%;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: medium ;
+                color: hsl(0, 0%, 100%);
+                font-size: 17px;
+            
+            }
+        }
+        .categorias__tarjeta-imagen1{
+            width: 165px;
+            height: 200px;
+            border-radius: 8px;
+            .categorias__tarjetatexto{
+                margin-top: 2%;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: medium ;
+                color: hsl(0, 0%, 100%);
+                font-size: 17px;
+            
+            }
+        }
+        .categorias__tarjeta-imagen2{
+            width: 165px;
+            height: 200px;
+            border-radius: 8px;
+            .categorias__tarjetatexto{
+                margin-top: 2%;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: medium ;
+                color: hsl(0, 0%, 100%);
+                font-size: 17px;
+            
+            }
+        }
+        .categorias__tarjeta-imagen3{
+            width: 165px;
+            height: 200px;
+            border-radius: 8px;
+            .categorias__tarjetatexto{
+                margin-top: 2%;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: medium ;
+                color: hsl(0, 0%, 100%);
+                font-size: 17px;
+            
+            }
+        }
+        .categorias__tarjeta-imagen4{
+            width: 165px;
+            height: 200px;
+            border-radius: 8px;
+            .categorias__tarjetatexto{
+                margin-top: 2%;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: medium ;
+                color: hsl(0, 0%, 100%);
+                font-size: 17px;
+            
+            }
+        }
+        .categorias__tarjeta-imagen5{
+            width: 165px;
+            height: 200px;
+            border-radius: 8px;
+            .categorias__tarjetatexto{
+                margin-top: 2%;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: medium ;
+                color: hsl(0, 0%, 100%);
+                font-size: 17px;
+            
+            }
+        }
+    }
+}
+    
+   
+   
