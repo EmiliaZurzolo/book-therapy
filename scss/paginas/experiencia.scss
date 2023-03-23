@@ -1,0 +1,65 @@
+body{
+    .main__experiencia-inicio{
+        display: flex;
+        .main__experiencia-imagen1{
+            width: 200px;
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main__experiencia-imagen2{
+            width: 200px;
+            height: 300px;
+            display: flex;
+            flex-direction: row;  
+        }
+        .main__experiencia-texto{
+            display: flex;
+            align-items: center;
+            padding: 5%;
+            background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+            border-radius: 8px;
+            color: white;
+            height: 50px;
+            margin-top: 2%;
+            align-content: center;
+            justify-content: center;
+        }
+        @media (max-width: 750px){
+            .main__experiencia-imagen1{
+                display: none;
+            }
+            .main__experiencia-imagen2{
+                display: none;
+            }
+            .main__experiencia-inicio{
+                background-image: url(https://images.unsplash.com/photo-1526248283201-fafd30eb2b90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+                height: 500 vh;
+                
+            }
+            .main__experiencia-texto{
+                background: none;
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+    .main__experiencia-importancia{
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+    }
+    .main__experiencia-lugar{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 780px){
+            .main__experiencia-lugar{
+               display: none;
+            }
+        }
+    }
+}

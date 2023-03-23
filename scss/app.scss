@@ -1,0 +1,13 @@
+@import "./general/colores.scss";
+@import "./general/tipografia.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
+
+@import "./paginas/inicio.scss";
+@import "./paginas/aplicacion.scss";
+@import "./paginas/experiencia.scss";
+@import "./paginas/contacto.scss";
+@import "./paginas/categorias.scss";

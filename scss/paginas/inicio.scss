@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(151, 101, 95);
+    .body__inicio{
+        background-color:rgb(10, 17, 42) ;
+        background-image: radial-gradient(blue to black);
+        main{
+            .banner{
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(./imagenes/librosmuchos.jpg);
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                .main__index-titulo {
+                    padding: 40px;
+                    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+                    border-radius: 30px;
+                    h1 {
+                        color: white;
+                    }
+                }
+                .main__index-titulo button {
+                    margin-top: 20px;
+                    border: none;
+                    width: 90%;
+                    height: 30px;
+                    border-radius: 30px;
+                }
+                .animate__animated .animate__bounce {
+                    animation: bounce;
+                    animation-duration: infinite;
+                }
+                
+                .main__index-titulo button:hover{
+                    background-color: gray;
+                    transform: translate(10px,20px);
+                    
+                }
+                
+                .main__index-titulo button {
+                    background-color: gray;
+                    color: black;
+                    
+                }
+                  
+                .main__index-titulo button:hover {
+                    background-color: #000000;
+                    color: white;
+                    transform: translateY(-50px);
+                }
+                
+            }
+            
+            .main__div{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                flex-direction: column;
+            }
+            .main__div-info1{
+                display: flex;
+                justify-content: center;
+            }
+            .main__imagen img{
+                display: flex;
+                justify-content: center;
+            }
+            .main__inicio-subtitulo{
+                padding: 5%;
+                color: white;
+                font-family: 'Montserrat', sans-serif;
+            }
+            
+            .inicio__tarjetatexto{
+                margin-top: 2%;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: medium ;
+                color: hsl(0, 0%, 100%);
+                font-size: 17px;
+            
+            }
+            .caja1, .caja2, .caja3, .caja4, .caja5, .caja6 {
+                width: 100px;
+                height: 200px;
+                border: 2px solid black;
+            } 
+            .main__inicio-mensaje{
+                padding: 40px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+                border-radius: 8px;
+                margin-bottom: 30px;
+                margin-top: 2%;
+            }
+        }
+    }
+    
+}
